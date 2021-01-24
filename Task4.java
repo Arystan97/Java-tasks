@@ -41,9 +41,9 @@ class Main
 			case 12:
 				System.out.print("December");
 				break;
+		}       
+		if(month>12){
+			System.out.print("Incorrent month number");
 		}
-        if(month>12){
-            System.out.print("Incorrent month number");
-        }
 	}
 }
