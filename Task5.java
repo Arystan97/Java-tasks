@@ -1,12 +1,12 @@
 import java.util.*;
-class Main7
+class Main
 {
 	public static void main(String[] args){
-		Scanner sc=new Scanner(System.in);
+	Scanner sc=new Scanner(System.in);
         System.out.print("Enter array length"+'\n');
         Integer l=sc.nextInt();
         Integer n[]=new Integer[l];
-		for(int i=0; i<l; i++){
+	for(int i=0; i<l; i++){
             n[i]=sc.nextInt();
         }
         int max=0;
