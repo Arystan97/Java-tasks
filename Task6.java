@@ -48,7 +48,7 @@ class Device3 extends ElectronicDevice
         return "Energy Consumption of device 3: "+EnergyConsumption+" Watts";
     }
 }
-public class Program
+public class Main
 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
