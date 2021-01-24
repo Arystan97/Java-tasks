@@ -8,12 +8,12 @@ class Main
 		int sum=0;
 		int multiply=1;
 		for(int i=0; i<MathNumber; i++){
-            MathArr[i]=sc.nextInt();
-            System.out.print(MathArr[i]+" ");
-			sum+=MathArr[i];
-            multiply*=MathArr[i];
+                        MathArr[i]=sc.nextInt();
+                        System.out.print(MathArr[i]+" ");
+	                sum+=MathArr[i];
+                        multiply*=MathArr[i];
 		}
-        System.out.print('\n'+"Sum: "+sum+'\n');
-        System.out.print("Multiplication: "+multiply);
+                System.out.print('\n'+"Sum: "+sum+'\n');
+                System.out.print("Multiplication: "+multiply);
 	}
 }
